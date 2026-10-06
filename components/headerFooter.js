@@ -92,7 +92,7 @@ class FooterMain extends HTMLElement {
             <link rel="stylesheet" href="components/footer.css">
 
                 <a href="https://www.instagram.com/xinguitas" target="_blank">
-                    <div class="footerIcon" style="background-image: url('/assets/images/icons/insta.png');"></div>
+                    <div class="footerIcon" style="background-image: url('../assets/images/icons/insta.png');"></div>
                 </a>
                 <h1>Itzél Rios-Ellis – 2026</h1>
                  
