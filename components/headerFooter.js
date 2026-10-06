@@ -49,20 +49,20 @@ window.addEventListener('resize', () => {
     checkSize()
 });
     paintingsButton.addEventListener("click", function() {
-        link("paintings.html");
+        link("/paintings.html");
     });
     animButton.addEventListener("click", function() {
-        link("illustrations.html");
+        link("/illustrations.html");
     });
     illusButton.addEventListener("click", function() {
-        link("sculptures.html");
+        link("/sculptures.html");
     });
     aboutButton.addEventListener("click", function() {
-        link("about.html");
+        link("/about.html");
     });
     menuButton.addEventListener("click", function() {
         const currentPage = document.body.dataset.page;
-        link(`index.html?from=${currentPage}`);
+        link(`/index.html?from=${currentPage}`);
     });
     function link(link){
         document.getElementById('loader').classList.remove("loader-hidden");
