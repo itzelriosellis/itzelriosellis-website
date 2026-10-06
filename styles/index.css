@@ -31,7 +31,7 @@
 
 .mButton {
     position: relative;
-    background: url('assets/images/paintings.png') center/cover no-repeat;
+    background: url('../assets/images/paintings.png') center/cover no-repeat;
     border-radius: 45px;
     padding-top: 25px;
     padding-bottom: 25px;
