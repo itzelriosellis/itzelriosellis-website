@@ -1,0 +1,35 @@
+{
+    "CASITA": {
+        "year":"2024",
+        "medium": "EPOXY SCULPT, ACRYLIC, FOUND OBJECTS",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 1
+    }, 
+    "FIFI": {
+        "year":"2024",
+        "medium": "EPOXY SCULPT, ACRYLIC",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 2
+    },
+    "AMALIA": {
+        "year":"2024",
+        "medium": "EPOXY SCULPT, FOUND OBJECTS, PAPER MACHE, MILAGRO CHARMS, WOVEN LACE",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 3
+    },
+    "BOOK": {
+        "year":"2024",
+        "medium": "DRAWING, PAINTING",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 4
+    }
+    
+}

@@ -1,0 +1,107 @@
+{
+    "BJORK POSTER": {
+        "year":"2024",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 1
+    }, 
+    "FALLING AWAY FROM ME NOW": {
+        "year":"2024",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 2
+    },
+    "THE BEACHES FILLMORE POSTER": {
+        "year":"2024",
+        "medium": "DIGITAL ILLUSTRATION, FILLMORE POSTER FOR THE BEACHES",
+        "canvas": "none",
+        "width": "13",
+        "height": "19",
+        "order" : 3
+    },
+    "HAYLEY KIYOKO FILLMORE POSTER": {
+        "year":"2023",
+        "medium": "DIGITAL ILLUSTRATION, FILLMORE POSTER FOR HAYLEY KIYOKO",
+        "canvas": "none",
+        "width": "13",
+        "height": "19",
+        "order" : 4
+    },
+    "D.R.Y ILLUSTRATION": {
+        "year":"2024",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 5
+    },
+    "DOES THIS HAPPEN TO U 2?": {
+        "year":"2024",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 6
+    },
+    "DELICATE": {
+        "year":"2023",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 7
+    },
+    "POSTCARD": {
+        "year":"2023",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 8
+    },
+    "AMORCITO": {
+        "year":"2023",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 9
+    },
+    "NENA": {
+        "year":"2022",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 10
+    },
+    "MY ROOM": {
+        "year":"2022",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 12
+    },
+    "WHERE AM I?": {
+        "year":"2022",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 13
+    },
+    "HUMO": {
+        "year":"2022",
+        "medium": "DIGITAL ILLUSTRATION",
+        "canvas": "none",
+        "width": "none",
+        "height": "none",
+        "order" : 14
+    }
+    
+}

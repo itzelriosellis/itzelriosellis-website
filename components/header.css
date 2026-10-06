@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.mobMenu{
+display: none;
+pointer-events: none; /* makes sure it doesn't block scroll or clicks */
+
+}
+.headerInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;              /* your ideal desktop width */
+    transform-origin: center top;
+}
+.menuButton {
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+    padding: 12px;
+    margin: 5px;
+    border-radius: 15px;
+    max-width: none;   /* ← let the grid control width */    
+    color:  var(--main-color);
+    max-height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.menuButton:hover{
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+}
+.menuButton.active {
+    border-bottom: 3px solid var(--main-color);
+    color:  var(--main-color);
+    background-color: rgba(255, 232, 240, 0.616);
+}
+.menuButton.active:hover {
+    background-color: rgb(255, 203, 210); /* Keep the hover effect */
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 210px);
+    column-gap: 35px;
+    justify-content: center;
+}
+.menuLogo {
+    width: 350px;
+    height: 210px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/assets/images/icons/logoAnimated.gif');
+    margin: 10px;
+}
+.menuLogo:hover{
+    background-image: url('/assets/images/icons/logoAnimated_hover.gif');
+}
+#subText{
+    color: var(--main-color);
+}
+@media (max-width: 1400px) {
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 50px;
+    }
+    .menuLogo{
+        width: 250px;
+    }
+}
+@media all and (max-width:800px){
+    header{ 
+        height: 125px;
+        position: fixed;
+        background-size: cover;
+        background-image: url('/assets/images/pages/banner.jpg');
+        background-blend-mode: multiply;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        top: 0;
+        z-index: 5;
+        transform: translate(-7px, 0px);
+        overflow: hidden;
+        cursor: pointer;
+        
+    }
+    .menuLogo{
+        width: 200px;
+        aspect-ratio: 1;
+        background-image: url('/assets/images/icons/logoAnimated.gif');
+
+    }
+    .menuButton, .right{
+        display: none;
+    }
+    .mobMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 45px;
+    right: 15px;
+    background: transparent;
+    z-index: 25;
+}
+
+.mobMenu div {
+    width: 6px;
+    height: 6px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+    .mobMenu div {
+        margin: 0 auto;
+    }
+
+    .mobMenu span {
+        display: block;
+    }
+}

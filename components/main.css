@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'main';
+    src: url('/assets/fonts/jai.TTF') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    
+}
+:root {
+  --main-color: #fc2014; /* your theme color */
+  --second-color: #f8f6e9;
+}
+
+#overlay {
+  background-color: rgba(var(--second-color-rgb), 0.5);
+}
+
+html, body {
+    font-family: 'main', sans-serif;
+    background-color: var(--second-color);
+    letter-spacing: 3px; 
+}
+a {
+    color: inherit; 
+    text-decoration: inherit;
+  }
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 246, 233);
+    z-index: 5;
+    transition: all 0.1s ease-out;
+    overflow-x: hidden;
+
+}
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after{
+    content:"";
+    width: 275px;
+    height: 275px;
+    background-image: url('../assets/images/icons/loading.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,43 @@
+{
+   
+    "Girl growing bite in early spring": {
+        "year":"2025",
+        "medium": "OIL",
+        "canvas": "LINEN",
+        "width": "24",
+        "height": "30",
+        "order" : 1
+    }, 
+    "SPLINTERING": {
+        "year":"2020",
+        "medium": "ACRYLIC",
+        "canvas": "CANVAS",
+        "width": "20",
+        "height": "20",
+        "order" : 2
+    },
+    "AUTORRETRATO DE 2020": {
+        "year":"2020",
+        "medium": "ACRYLIC",
+        "canvas": "CANVAS",
+        "width": "20",
+        "height": "20",
+        "order" : 3
+    },
+    "MELT": {
+        "year":"2022",
+        "medium": "ACRYLIC",
+        "canvas": "CANVAS",
+        "width": "16",
+        "height": "16",
+        "order" : 4
+    },
+    "TZOMPANTLI PAINTING FOR CENTRO MULTICULTURAL PONTIAC": {
+        "year":"2020",
+        "medium": "ACRYLIC",
+        "canvas": "CANVAS",
+        "width": "20",
+        "height": "20",
+        "order" : 5
+    }
+}
