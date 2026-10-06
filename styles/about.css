@@ -56,7 +56,7 @@
 #copy{
   width: 30px;
   height: 30px;
-  background-image: url('/assets/images/icons/copy.png');
+  background-image: url('assets/images/icons/copy.png');
   background-position: center;
   background-size: contain;
   cursor: pointer;

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const imgFileName = title.toLowerCase().replace(/ /g, "_").replace(/[?<>:*"\/|\\\[\]]/g, '');
 const imgExt = page === "sculptures" ? "gif" : "jpg";
-const imgLoc = `/assets/images/${page}/${imgFileName}.${imgExt}`;
+const imgLoc = `assets/images/${page}/${imgFileName}.${imgExt}`;
         const bottomText = document.getElementById('overlayBottom');
         const fsContainer = document.getElementById('fsContainer');
 
@@ -110,7 +110,7 @@ const imgLoc = `/assets/images/${page}/${imgFileName}.${imgExt}`;
   sortedPieces.forEach(([title, data], index) => {
     const imgFileName = title.toLowerCase().replace(/ /g, "_").replace(/[?<>:*"\/|\\\[\]]/g, '');
 const imgExt = page === "sculptures" ? "gif" : "jpg";
-const imgLoc = `/assets/images/${page}/${imgFileName}.${imgExt}`;
+const imgLoc = `assets/images/${page}/${imgFileName}.${imgExt}`;
 
     const photo = document.createElement('div');
     photo.className = 'photo loading';

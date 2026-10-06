@@ -57,11 +57,11 @@ pointer-events: none; /* makes sure it doesn't block scroll or clicks */
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/assets/images/icons/logoAnimated.gif');
+    background-image: url('assets/images/icons/logoAnimated.gif');
     margin: 10px;
 }
 .menuLogo:hover{
-    background-image: url('/assets/images/icons/logoAnimated_hover.gif');
+    background-image: url('assets/images/icons/logoAnimated_hover.gif');
 }
 #subText{
     color: var(--main-color);
@@ -80,7 +80,7 @@ pointer-events: none; /* makes sure it doesn't block scroll or clicks */
         height: 125px;
         position: fixed;
         background-size: cover;
-        background-image: url('/assets/images/pages/banner.jpg');
+        background-image: url('assets/images/pages/banner.jpg');
         background-blend-mode: multiply;
         width: 100%;
         padding: 0px;
@@ -95,7 +95,7 @@ pointer-events: none; /* makes sure it doesn't block scroll or clicks */
     .menuLogo{
         width: 200px;
         aspect-ratio: 1;
-        background-image: url('/assets/images/icons/logoAnimated.gif');
+        background-image: url('assets/images/icons/logoAnimated.gif');
 
     }
     .menuButton, .right{
