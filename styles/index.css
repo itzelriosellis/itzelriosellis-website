@@ -9,7 +9,7 @@
 }
 
 #homeBG {
-    background-image: url(assets/images/icons/logoAnimated.gif);
+    background-image: url(../assets/images/icons/logoAnimated.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

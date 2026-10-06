@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'main';
-    src: url('/assets/fonts/jai.TTF') format('truetype');
+    src: url('../assets/fonts/jai.TTF') format('truetype');
     font-weight: 200;
     font-style: normal;
     
